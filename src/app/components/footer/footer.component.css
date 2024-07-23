@@ -1,0 +1,32 @@
+.footer {
+  background-color: #d4d7fd;
+  padding: 40px 0;
+  border-top: 2px solid #99E3DF; /* Línea superior similar al hover de la navbar */
+}
+
+.footer h5 {
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}

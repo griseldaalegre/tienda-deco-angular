@@ -1,0 +1,9 @@
+.card-custom {
+  width: 20rem;
+  height: 25rem;
+}
+
+.card-custom .card-img-top {
+  height: 10rem;
+  object-fit: cover;
+}

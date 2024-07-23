@@ -1,0 +1,8 @@
+<div class="card text-center container card-with-bg mt-5" style="width: 20rem; height: 25rem;">
+  <div class="card-body">
+    <h5 class="card-title text-uppercase text-dark">{{ prod.title }}</h5>
+    <img src="{{ prod.image }}" class="card-img-top mb-3" alt="{{ prod.title }}" style="height: 10rem; object-fit: cover;">
+    <p class="card-text">{{ prod.title }} text below as a natural lead-in to additional content.</p>
+    <a class="btn btn-primary" [routerLink]="['/categories/products']">Go somewhere</a>
+  </div>
+</div>
