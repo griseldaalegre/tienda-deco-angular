@@ -1,9 +1,14 @@
 .card-custom {
-  width: 20rem;
-  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-custom .card-img-top {
-  height: 10rem;
+  height: 20rem;
   object-fit: cover;
+}
+
+.card-custom .btn {
+  margin-top: auto;
 }

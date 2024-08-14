@@ -1,0 +1,18 @@
+<div class="container d-flex">
+  <div class="container row g-0 bg-light position-relative">
+    <div class="col-md-6 mb-md-0 p-md-4">
+      <img src="{{ product?.image }}" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">{{ product?.title }}</h5>
+      <p class="card-text">{{ product?.description }}</p>
+      <a class="text-body" [routerLink]="['../../']">
+        <i class="fas fa-long-arrow-alt-left me-2"></i>Volver a cateogorias
+      </a>
+      <a class="btn btn-secondary btn-sm" (click)="addFavorite(prod)"> {{product?.favorite ? "Quitar": "Guardar"}}</a>
+
+    </div>
+
+  </div>
+
+</div>

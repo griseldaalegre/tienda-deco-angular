@@ -1,0 +1,43 @@
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.cart-container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cart-icon img {
+    width: 60px; 
+    height: 60px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+.btn-primary-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 500;
+}

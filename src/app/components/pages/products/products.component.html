@@ -1,1 +1,12 @@
-<app-card-mini></app-card-mini>
+<div class="container d-flex flex-row container-products justify-center flex-wrap">
+@for(prod of arrProducts; track prod){
+<app-card-mini class="mb-3" [prod]="prod"></app-card-mini>
+}
+<div class="container d-flex" >
+    <h6 class="mb-0">
+      <a class="text-body" [routerLink]="['/categories/']">
+        <i class="fas fa-long-arrow-alt-left me-2"></i>Volver a cateogorias
+      </a>
+    </h6>
+  </div>
+</div>

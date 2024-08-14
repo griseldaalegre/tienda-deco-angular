@@ -11,7 +11,7 @@ export class ApiService {
 
   private URLAPI = 'https://fakestoreapi.com/products';
   productsList: Product[] = [];
-  cantidad = 6;
+  cantidad = 20;
 
   constructor(private http: HttpClient) { }
 
@@ -34,13 +34,24 @@ export class ApiService {
               category: response[index].category,
               image: response[index].image,
               rating: response[index].rating,
+              favorite: false,
+              quantity: 0
             }
-            console.log(product);
             this.productsList.push(product);
           }
         }
       )
     }
     return of(this.productsList);
+  }
+
+  public updateProductList(prod: Product) {
+    let index = this.productsList.findIndex((prod1) => prod1.title === prod.title);
+    this.productsList[index].favorite = false;
+  }
+
+
+  public findProduct(id: number): Product | undefined {
+    return this.productsList.find((prod) => prod.id === id);
   }
 }

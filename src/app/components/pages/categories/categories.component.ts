@@ -17,7 +17,7 @@ import { ProductCartService } from '../../services/product-cart.service';
 export class CategoriesComponent implements OnChanges {
 
   arrProductsCat: Product[] = [];
-  arrFavoritesProducts: Product[] = [];
+
 
   constructor(private cart: ProductCartService, private apiService: ApiService) {
 

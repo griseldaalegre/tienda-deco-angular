@@ -11,6 +11,6 @@ import { ApiService } from './components/services/api.service';
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes, withComponentInputBinding()),
     provideHttpClient(), // Asegúrate de proporcionar HttpClient
-    ApiService // Proporciona tu servicio
+    ApiService, // Proporciona tu servicio
   ] //funcion a la que pasamos nuestras rutas
 };
