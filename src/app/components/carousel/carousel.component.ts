@@ -33,7 +33,8 @@ export class CarouselComponent {
         let id = params.get('id');
         this.findProduct(Number(id));
       });
-  }
+ 
+    }
 
   findProduct(id: number) {
     this.product = this.apiService.findProduct(id);

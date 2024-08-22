@@ -41,3 +41,7 @@ p {
     color: #ffffff;
     font-weight: 500;
 }
+
+.container-item {
+    padding: 10px;
+  }

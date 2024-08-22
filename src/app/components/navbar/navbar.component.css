@@ -18,7 +18,7 @@ nav{
   }
   
   .navbar-nav .nav-link:hover {
-    color: black; 
+    color: rgb(255, 255, 255); 
   }
   
   .navbar-nav .nav-link::after {
@@ -30,11 +30,15 @@ nav{
     width: 0; 
     height: 2px;
    /* background-color: #F48BB4;*/ 
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     transition: width 0.3s ease;
   }
   
   .navbar-nav .nav-link:hover::after {
     width: 100%; 
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   

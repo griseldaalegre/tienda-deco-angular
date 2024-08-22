@@ -7,3 +7,9 @@ app-card {
     padding: 10px;
 }
 
+@media (max-width: 576px) { 
+.container {
+    justify-content: center;
+}
+    
+}
