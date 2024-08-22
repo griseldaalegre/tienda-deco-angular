@@ -1,0 +1,76 @@
+.carousel-inner {
+    padding: 50px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white; /* Cambia a un color que contraste con el fondo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra */
+}
+
+.carousel-caption h1 {
+    color: white; /* Cambia a un color que contraste con el fondo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra negra */
+}
+
+.carousel-caption {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-item-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-prod {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+/* Cambios para hacer el carousel responsive */
+
+/* Reduce el tamaño de las imágenes en dispositivos móviles */
+@media (max-width: 576px) { /* Pantallas pequeñas (celulares) */
+    .img-prod {
+        height: 200px; /* Reduce la altura de la imagen */
+        width: 200px; /* Reduce el ancho de la imagen */
+    }
+    
+    .carousel-inner {
+        padding: 20px; /* Reduce el padding en dispositivos móviles */
+    }
+
+    .carousel-item-container {
+        flex-direction: column; /* Alinea verticalmente el contenido */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Ajusta el tamaño del texto en dispositivos móviles */
+    }
+}
+
+/* Ajustes para pantallas medianas */
+@media (min-width: 576px) and (max-width: 768px) { /* Tablets y pantallas medianas */
+    .img-prod {
+        height: 300px; /* Ajusta la altura de la imagen */
+        width: 300px; /* Ajusta el ancho de la imagen */
+    }
+
+    .carousel-inner {
+        padding: 30px; /* Ajusta el padding en pantallas medianas */
+    }
+
+    h1 {
+        font-size: 2rem; /* Ajusta el tamaño del texto en pantallas medianas */
+    }
+}

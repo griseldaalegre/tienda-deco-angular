@@ -4,11 +4,40 @@
   justify-content: space-between;
 }
 
-.card-custom .card-img-top {
-  height: 20rem;
-  object-fit: cover;
+.card-img-top {
+  height: 15rem;
+  /*object-fit: cover;*/
 }
 
+.container-img {
+  width: 100%;
+}
 .card-custom .btn {
   margin-top: auto;
 }
+
+.card-img{
+  height: 160px;
+  width: 160px; 
+}
+
+@media (max-width: 576px) { 
+  .card-img {
+      height: 160px;
+      width: 160px; 
+  }
+  
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+      .card-img {
+      height: 200px; 
+      width: 200px;
+  }
+
+  h5 {
+      font-size: 1rem;
+  }
+}
+
+

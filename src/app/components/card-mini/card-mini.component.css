@@ -1,3 +1,23 @@
-.card-custom .card-img-top {
-    height: 10rem;
+.card-custom .card-img-top {}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    height: 160px;
+    width: 160px;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.container-btn {
+    width: 160px;
+}
+
+.container-btn{
+    width:156px;
 }

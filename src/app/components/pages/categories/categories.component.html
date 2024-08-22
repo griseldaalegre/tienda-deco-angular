@@ -1,6 +1,6 @@
-<h1 class="text-uppercase text-dark text-center">Categorias</h1>
-<div class="container d-flex flex-column container-categories">
+
+<div class="container d-flex flex-row flex-wrap container-categories col-md-12">
     @for(prod of arrProductsCat; track prod){
-    <app-card class="mb-3" [prod]="prod"></app-card>
+    <app-card class="mb-3 col-md-3" [prod]="prod"></app-card>
     }
 </div>
