@@ -1,3 +1,6 @@
+.container-products {
+  margin-top: 7rem;
+}
 .ml-50 {
   margin-right: 50%;
   background-color: aquamarine;
@@ -5,6 +8,8 @@
 
 .container-item {
   padding: 10px;
+  padding-top: 7rem;
+
 }
   
 @media (max-width: 576px) { 

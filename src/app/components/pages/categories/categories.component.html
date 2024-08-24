@@ -1,6 +1,8 @@
 
-<div class="container d-flex flex-row flex-wrap container-categories col-md-12">
+<div class="container d-flex flex-row flex-wrap container-categories col-md-12 mt-5">
+    
     @for(prod of arrProductsCat; track prod){
     <app-card class="mb-3 col-md-3" [prod]="prod"></app-card>
     }
+    
 </div>

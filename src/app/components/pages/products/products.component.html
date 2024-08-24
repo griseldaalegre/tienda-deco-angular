@@ -1,8 +1,5 @@
 <div class="container d-flex flex-row container-products justify-center flex-wrap">
-@for(prod of arrProducts; track prod){
-<app-card-mini class="mb-3" [prod]="prod"></app-card-mini>
-}
-<div class="container d-flex" >
+  <div class="container d-flex">
     <h6 class="mb-0">
       <div class="container-item">
         <a class="text-body" [routerLink]="['/categories/']">
@@ -14,4 +11,8 @@
 
     </h6>
   </div>
+  @for(prod of arrProducts; track prod){
+  <app-card-mini class="mb-3" [prod]="prod"></app-card-mini>
+  }
+
 </div>

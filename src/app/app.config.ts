@@ -14,3 +14,4 @@ export const appConfig: ApplicationConfig = {
     ApiService, // Proporciona tu servicio
   ] //funcion a la que pasamos nuestras rutas
 };
+
