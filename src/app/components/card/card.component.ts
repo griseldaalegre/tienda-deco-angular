@@ -11,8 +11,8 @@ import { Product } from '../models/product';
 })
 export class CardComponent {
   @Input('products')
-  product: any | undefined; //para el ruteo
-  @Input() prod!: Product; //unput de la api
+  product: any | undefined;
+  @Input() prod!: Product; 
 
   constructor(private router: Router) { }
 
